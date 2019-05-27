@@ -3,8 +3,19 @@
 Create json key-value pairs based on an inheritance model to help
 keep file contents relatively simple to maintain.
 
+The parser will continue reading additions to a chain of inheritance
+until it encounters a *dead end* (where no more children objects are
+found to continue parsing) that is nested at least at the defined
+`MINIMUM_DEPTH` (default 1). In the example below, the `sedan` and
+`hatchback` trims are dead-ends and will thus end the parsing/inheritance
+chain.
+
 The only key values that aren't overwritten are 'include' directives
 for the sake of referencing by a follow-up parser.
+
+For help regarding command line arguments for the parser:
+
+    python3 ./parse.py -h
 
 ### Example Usage
 
