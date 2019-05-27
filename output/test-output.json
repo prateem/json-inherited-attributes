@@ -1,0 +1,23 @@
+{
+  "mazda_mazda-3_trim_hatchback": {
+    "make": "mazda",
+    "model": "mazda-3",
+    "six-cylinder-variant": "premium",
+    "variants": [
+      "base",
+      "select",
+      "preferred",
+      "premium"
+    ]
+  },
+  "mazda_mazda-3_trim_sedan": {
+    "make": "mazda",
+    "model": "mazda-3",
+    "variants": [
+      "base",
+      "select",
+      "preferred",
+      "premium"
+    ]
+  }
+}

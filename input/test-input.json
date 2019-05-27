@@ -1,0 +1,15 @@
+{
+  "mazda": {
+    "make": "mazda",
+    "mazda-3": {
+      "model": "mazda-3",
+      "variants": ["base", "select", "preferred", "premium"],
+      "trim": {
+        "sedan": {},
+        "hatchback": {
+          "six-cylinder-variant": "premium"
+        }
+      }
+    }
+  }
+}
