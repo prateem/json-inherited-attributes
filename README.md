@@ -15,13 +15,13 @@ for the sake of referencing by a follow-up parser.
 
 For help regarding command line arguments for the parser:
 
-    python3 ./parse.py -h
+    python3 parse.py -h
 
 ### Example Usage
 
-    python3 ./parse.py input/test-input.json output/test-output.json
+    python3 parse.py test-input.json test-output.json
     
-Takes the following input file, styled based on inheritance of attributes...
+Takes the following input file, structured based on inheritance of attributes...
 
     {
       "mazda": {
